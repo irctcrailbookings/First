@@ -16,6 +16,7 @@ public class PrityFactorialSecond {
 			fact= fact*i;
 		}
 		System.out.println("Factorial of "+n+ " 5is= " +fact);
+		sc.close();
 		
 	}
 
