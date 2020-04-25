@@ -10,7 +10,9 @@ public class Main {
 		Lion l = new Lion();
 		l.speak("LLLLLL");
 		l.run("fast");
-
+		Horse h = new Horse();
+		h.speak("nice");
+		h.run("fast");
 
 	}
 
