@@ -13,6 +13,9 @@ public class Main {
 		Horse h = new Horse();
 		h.speak("nice");
 		h.run("fast");
+		Cat c = new Cat();
+		c.speak("meow");
+		c.run("very fast ");
 
 	}
 
