@@ -17,6 +17,8 @@ package myPackage;
 		double g = 10;
 		System.out.println(f);
 		System.out.println(g);
+		
+		//int i = 10;
 	 	 
 	}
 
