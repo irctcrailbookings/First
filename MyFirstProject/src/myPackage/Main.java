@@ -7,6 +7,10 @@ public class Main {
 		Dog d = new Dog();
 		d.speak("Bark");
 		d.run("Not so fast");
+		Lion l = new Lion();
+		l.speak("LLLLLL");
+		l.run("fast");
+
 
 	}
 
