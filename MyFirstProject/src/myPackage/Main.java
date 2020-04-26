@@ -16,8 +16,6 @@ public class Main {
 		Cat c = new Cat();
 		c.speak("meow");
 		c.run("very fast ");
-		//Commit
-
 	}
 
 }
