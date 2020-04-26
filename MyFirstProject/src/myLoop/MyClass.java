@@ -15,6 +15,9 @@ public class MyClass {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println("4"+"x"+i+"="+ 4*i);
 		}
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("5"+"x"+i+"="+ 5*i);
+		}
 	}
 
 }
