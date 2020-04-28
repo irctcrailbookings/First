@@ -16,6 +16,13 @@ public class MyAssignmentOne {
 	
 	public static void reverse(int number) {
 		//Prity code goes here
+		int rev=0;
+		while(number>0) {
+			int x=number%10;//4
+			rev=rev*10+x;
+			number=number/10;
+		}
+		System.out.println("Reverse number is ="+rev);
 	}
 	
 	
