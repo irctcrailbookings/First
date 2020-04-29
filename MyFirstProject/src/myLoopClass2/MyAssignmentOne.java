@@ -57,7 +57,21 @@ public class MyAssignmentOne {
 	}
 
 	public static void primeOrnotPrity(int number) {
-
+		int m = number / 2;
+		int count = 0;
+		if (number == 0 || number == 1) {
+			System.out.println("It is not a prime number" + number);
+		} else {
+			for (int i = 2; i <= m; i++) {
+				if (number % i == 0) {
+					System.out.println("It is not a prime number" + number);
+					count = 1;
+					break;
+				}
+			}
+		}
+		if(count == 0) {
+			System.out.println("It is a prime number "+ number);
+		}
 	}
-
 }
