@@ -12,7 +12,7 @@ public class MyAssignmentTwo {
 	}
 	
 	public static void leapYearP(int number) {
-
+		
 	}
 	
 	public static void determineTrainagleV(int a, int b , int c) {
