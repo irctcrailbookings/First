@@ -35,7 +35,18 @@ public class MyAssignmentTwo {
 	}
 	
 	public static void printLeapYearP(int yearOne, int yearTwo ) {
-
+		int count=0;
+		for(int i=yearOne;i<=yearTwo;i++)
+		{
+			if(i%4==0 && i%100==0 && i%400==0) {
+				System.out.println(i+" is a leap year");
+				count=1;
+				break;
+			}
+			else if(count == 0){
+				System.out.println(i+" is not a leap year");
+			}
+		}
 	}
 	
 	public static void printLeapYearV(int yearOne, int yearTwo ) {
