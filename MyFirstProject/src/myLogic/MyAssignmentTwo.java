@@ -15,18 +15,7 @@ public class MyAssignmentTwo {
 		} else {
 			System.out.println("Sorry It's not a leap year");
 		}
-		// for(int i=1;i<=4;i++)
-		// {
-		// number=number+1;
-		// System.out.println(i);
-		// System.out.println(number);
-		// if(number%4==0 && number%100==0 && number%400==0)
-		// {
-		// System.out.println("Next leap year is"+number);
-		// }
-		// }
-		// }
-
+		
 	}
 
 	public static void leapYearP(int number) {
