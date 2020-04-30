@@ -9,8 +9,10 @@ public class Day3 {
 	}
 	
 	public static void getSecondLastNumber(int[] arr) {
-		System.out.println(arr.length);
 		
+		for(int i = 0; i<arr.length; i++) {
+			System.out.println(i +"       "+ arr[i]);
+		}
 	}
 
 }
