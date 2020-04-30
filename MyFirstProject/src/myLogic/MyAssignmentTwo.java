@@ -4,18 +4,21 @@ public class MyAssignmentTwo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		leapYearV(2024);
 	}
 
 	public static void leapYearV(int number) {
-		if (number % 4 == 0)
-
-		{
-			System.out.println("Ohh Yes It's a leap year");
-		} else {
-			System.out.println("Sorry It's not a leap year");
+		if (number % 4 == 0 && number % 100 == 0 && number%400==0)
+		{System.out.println("yeahh..Its a leap");
+			
 		}
-		
+		else if (number % 4 == 0 && number%100!=0) 
+		{
+			System.out.println("Ohh It's leap year");
+		} else {
+			System.out.println("Its not a leap year");
+		}
+
 	}
 
 	public static void leapYearP(int number) {
